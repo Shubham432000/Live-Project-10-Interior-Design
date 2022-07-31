@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(./image/living-room-gca5edf574_1280.jpg) ;
+    
+    background-size: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+color: white;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-around;
+
+}
+.nav2{
+    margin-top: 35px;
+}
+.nav3{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: white;
+    font-size: 18px;
+}
+.nav4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.nav4>img{
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.nav4>span{
+    margin-top: 40px;
+}
+.nav5{
+    width: 750px;
+    height: 0px;
+    border: 1px solid white;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.section1{
+    margin-top: 100px;
+}
+.section2{
+    margin-left: 200px;
+}
+.section2>h1{
+    font-size: 50px;
+}
+.section3{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.section3>a{
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section5{
+    border: 1px solid gray;
+    height: 150px;
+    width: 280px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 170px;
+    left: 900px;
+}
+.section5>img{
+    height: 50px;
+}
+.section6{
+    border: 1px solid gray;
+    height: 150px;
+    width: 280px;
+    padding: 20px 20px;
+    position: absolute;
+    top: 430px;
+    left: 500px;
+}
+.section6>img{
+    height: 50px;
+}
+.section7{
+    height: 25px;
+    width: 25px;
+    border: 1px solid gary;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    top: 377px;
+    left: 1090px;
+}
+.section8{
+    height: 25px;
+    width: 25px;
+    border: 1px solid gary;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 490px;
+    left: 850px;
+}
+.section9{
+    height: 60px;
+    width: 0px;
+    border: 1px solid white;
+    margin-left: 100px;
+    position: absolute;
+    top: 320px;
+    left: 1000px;
+}
+.section10{
+    height: 0px;
+    width: 70px;
+    border: 1px solid white;
+    margin-left: 100px;
+    position: absolute;
+    top: 500px;
+    left: 680px;
+}
